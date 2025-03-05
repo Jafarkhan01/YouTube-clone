@@ -1,0 +1,18 @@
+@for (post of posts; track $index) {
+    <div>
+        <img [src]="post.imageUrl" alt="Post image" width="400px" height="250px">
+    </div>
+    <div style="display: flex; justify-content: space-between;">
+        <div style="margin-left: 15px;">
+            <img [src]="post.avatarUrl" alt="avatar" width="100px" height="50px">
+        </div>
+        <div style="margin-top: 10px;">
+            <span>{{ post.userName }}</span>
+            <br><br>
+            <span style="color: gray;">{{ post.date }}</span>
+        </div>
+        <div>
+            <button><img src="./assets/Vector.svg" alt="Options"></button>
+        </div>
+    </div>
+}
