@@ -1,5 +1,11 @@
 import { CommonModule } from '@angular/common';
 import { Component } from '@angular/core';
+interface Post {
+  imageUrl: string;
+  avatarUrl: string;
+  userName: string;
+  date: string;
+}
 
 @Component({
   selector: 'app-home',

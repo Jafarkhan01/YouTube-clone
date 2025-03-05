@@ -1,0 +1,32 @@
+<main>
+    <div class="container">
+        <img src="./assets/content/18. Замок Химэдзи.jpg" alt="Скриншот видео">
+        <div class="sidebar">
+            <div>👍</div>
+            <span>929 тыс.</span>
+            <div>👎</div>
+            <span>0</span>
+            <div>💬</div>
+            <span>2 443</span>
+            <div>🔗</div>
+            <span>Поделится</span>
+            <div>🔗</div>
+            <span>Ещё</span>
+        </div>
+    </div>
+</main>
+
+@for (short of shorts; track $index) {
+    <main>
+        <div class="container">
+            <img [src]="short.videoUrl" alt="">
+        </div>
+        <div>
+            <div>{{short.likes}}</div>
+            <div>{{short.dislikes}}</div>
+            <div>{{short.comments}}</div>
+            <div>{{short.shares}}</div>
+            <div>{{short.mores}}</div>
+        </div>
+    </main>
+}
