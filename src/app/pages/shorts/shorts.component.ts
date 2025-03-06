@@ -23,7 +23,7 @@ export class ShortsComponent {
       dislikes: '👎',
       comments: '💬',
       shares: '🔗',
-      mores: '��'
+      mores: '👌'
     },
     {
       videoUrl: './assets/content/18. Замок Химэдзи.jpg',
@@ -31,7 +31,7 @@ export class ShortsComponent {
       dislikes: '👎',
       comments: '💬',
       shares: '🔗',
-      mores: '��'
+      mores: '👌'
     }
   ];
 
