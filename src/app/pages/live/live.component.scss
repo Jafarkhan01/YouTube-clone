@@ -1,0 +1,104 @@
+$bg-color: #181818;
+$text-color: #fff;
+$card-bg: #282828;
+$card-radius: 8px;
+$spacing: 16px;
+
+section{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+.sec{
+    margin-top: 230px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: $spacing;
+
+    &__logo {
+        font-size: 24px;
+    }
+
+    &__title {
+        font-size: 36px;
+    }
+}
+
+.content {
+    padding: $spacing;
+}
+
+.category {
+    margin-bottom: 32px;
+
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    &__title {
+        margin-bottom: $spacing;
+        font-size: 2rem;
+    }
+
+    &__grid {
+        display: grid;
+        grid-template-columns: repeat(4, minmax(200px, 1fr));
+        gap: 16px;
+    }
+
+    &__subscribe{
+        background: #fff;
+        color: #3ea6ff;
+        font-size: 14px;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background: #ccc;
+        }
+
+    }
+}
+
+.card {
+    background: $card-bg;
+    height: 200px;
+    border-radius: $card-radius;
+
+    &__image {
+        width: 100%;
+        object-fit: cover;
+        border-radius: $card-radius 0 0 $card-radius;
+    }
+
+    &__icons {
+        display: flex;
+        align-items: center;
+        padding: $spacing;
+        font-size: 20px;
+        gap: 10px;
+    }
+    
+
+    &__info {
+        padding: $spacing;
+    }
+
+    &__title{
+        font-size: 16px;
+    }
+
+    &__date {
+        font-size: 14px;
+        opacity: 0.8;
+        margin-left: 20px;
+    }
+
+}

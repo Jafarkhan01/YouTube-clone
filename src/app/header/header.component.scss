@@ -3,14 +3,6 @@ $secondary-color: #f8f8f8;
 $text-color: #000;
 $border-color: #ddd;
 $icon-color: #606060;
-
-body {
-    font-family: Arial, sans-serif;
-    background: $secondary-color;
-    margin: 0;
-    padding: 0;
-}
-
 header {
     display: flex;
     align-items: center;
