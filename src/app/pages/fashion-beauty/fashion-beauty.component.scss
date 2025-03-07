@@ -10,7 +10,7 @@ section{
 }
 
 .sec{
-    margin-top: 300px;
+    margin-top: 230px;
 }
 
 .header {
@@ -23,7 +23,7 @@ section{
     }
 
     &__title {
-        font-size: 36px;
+        font-size: 2rem;
     }
 }
 
@@ -34,9 +34,15 @@ section{
 .category {
     margin-bottom: 32px;
 
+    &__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     &__title {
         margin-bottom: $spacing;
-        font-size: 20px;
+        font-size: 2rem;
     }
 
     &__grid {
@@ -47,8 +53,17 @@ section{
 
     &__subscribe{
         background: #fff;
-        color: #AAAAAA;
+        color: #3ea6ff;
         font-size: 14px;
+        border: none;
+        padding: 8px 16px;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:hover {
+            background: #ccc;
+        }
+
     }
 }
 

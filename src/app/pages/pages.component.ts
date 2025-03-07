@@ -10,10 +10,12 @@ import { MusicComponent } from "./music/music.component";
 import { LiveComponent } from "./live/live.component";
 import { SportComponent } from "./sport/sport.component";
 import { EducationComponent } from "./education/education.component";
+import { FashionBeautyComponent } from "./fashion-beauty/fashion-beauty.component";
+import { HistoryComponent } from "./history/history.component";
 
 @Component({
   selector: 'app-pages',
-  imports: [HeaderComponent, EducationComponent],
+  imports: [HeaderComponent, HistoryComponent, NavBarComponent],
   templateUrl: './pages.component.html',
   styleUrl: './pages.component.scss'
 })
